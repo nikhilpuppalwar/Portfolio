@@ -634,7 +634,7 @@ export default function Home() {
     }
 
     // Track expanded state for each category
-    let expandedCategories: { [key: string]: boolean } = {};
+    const expandedCategories: { [key: string]: boolean } = {};
 
     function renderSkills(category: string) {
       if (skillsGrid) {
@@ -2303,7 +2303,7 @@ export default function Home() {
                 whileHover={{ scale: 1.05, y: -2 }}
                 whileTap={{ scale: 0.95 }}
               >
-                <span>Let's Work Together</span>
+                <span>Let&apos;s Work Together</span>
                 <motion.span
                   animate={{ x: [0, 5, 0] }}
                   transition={{ duration: 1.5, repeat: Infinity }}
@@ -2603,7 +2603,7 @@ export default function Home() {
                       <p className="text-gray-300 group-hover:text-white transition-colors">
                         nikhilpuppalwar16@gmail.com
                       </p>
-                      <p className="text-sm text-gray-400 mt-1">I'll respond within 24 hours</p>
+                      <p className="text-sm text-gray-400 mt-1">I&apos;ll respond within 24 hours</p>
                     </div>
                     <motion.div
                       className="opacity-0 group-hover:opacity-100 transition-opacity duration-300"
@@ -2731,7 +2731,7 @@ export default function Home() {
               </motion.div>
               <div className="text-left">
                 <p className="text-white font-semibold">Ready to collaborate?</p>
-                <p className="text-gray-300 text-sm">Let's build something amazing together</p>
+                <p className="text-gray-300 text-sm">Let&apos;s build something amazing together</p>
               </div>
             </motion.div>
           </motion.div>
