@@ -14,6 +14,9 @@ export const metadata: Metadata = {
   keywords: ["portfolio", "android developer", "mobile app development", "machine learning", "data science", "computer engineering"],
   authors: [{ name: "Nikhil Puppalwar" }],
   creator: "Nikhil Puppalwar",
+    verification: {
+    google: "TjF9xycBjgvjO8NFOksKHpLCkCGAOjHVUuZy1Vwd4Fk",
+  },
   openGraph: {
     title: "Nikhil Puppalwar - Portfolio",
     description: "Computer Engineering Student | Android Developer | AI/ML Enthusiast",
