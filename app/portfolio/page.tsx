@@ -2381,15 +2381,15 @@ export default function Home() {
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {[
-            { title: "Basics of Python", issuer: "Coding Ninjas", date: "2024", file: "certificate_coding_ninjas_basic_python.pdf" },
-            { title: "Programming in Modern C++", issuer: "NPTEL", date: "2024", file: "Programming_in_Modern_C++_Nptel.pdf" },
-            { title: "Introduction to SQL", issuer: "Simplilearn", date: "2024", file: "Introduction_to_SQL.pdf" },
-            { title: "Introduction to Deep Learning", issuer: "Infosys Springboard", date: "2024", file: "Introduction_to_Deep_Learning.pdf" },
-            { title: "Artificial Intelligence", issuer: "Infosys Springboard", date: "2024", file: "Artificial_Intelligence.pdf" },
-            { title: "Computer Vision 101", issuer: "Infosys Springboard", date: "2024", file: "Computer_Vision_101.pdf" },
-            { title: "Generative AI", issuer: "Infosys Springboard", date: "2024", file: "Generative_AI_Unleashing.pdf" },
-            { title: "Android Development", issuer: "Infosys Springboard", date: "2024", file: "Android_p_-prog.pdf" },
-            { title: "Data Science", issuer: "Infosys Springboard", date: "2024", file: "Introduction_to_Data_Science.pdf" },
+            { title: "Basics of Python", issuer: "Coding Ninjas", date: "03/14/2024", file: "certificate_coding_ninjas_basic_python.pdf" },
+            { title: "Programming in Modern C++", issuer: "NPTEL", date: "Jan-Apr 2024", file: "Programming_in_Modern_C++_Nptel.pdf" },
+            { title: "Introduction to SQL", issuer: "Simplilearn", date: "13/01/2025", file: "Introduction_to_SQL.pdf" },
+            { title: "Introduction to Deep Learning", issuer: "Infosys Springboard", date: "06/06/2025", file: "Introduction_to_Deep_Learning.pdf" },
+            { title: "Artificial Intelligence", issuer: "Infosys Springboard", date: "11/08/2024", file: "Artificial_Intelligence.pdf" },
+            { title: "Computer Vision 101", issuer: "Infosys Springboard", date: "june 2025", file: "Computer_Vision_101.pdf" },
+            { title: "Generative AI", issuer: "Infosys Springboard", date: "11/06/2025", file: "Generative_AI_Unleashing.pdf" },
+            { title: "Android Development", issuer: "Udemy", date: "07/11/2024", file: "Android_p_-prog.pdf" },
+            { title: "Data Science", issuer: "Infosys Springboard", date: "07/08/2024", file: "Introduction_to_Data_Science.pdf" },
           ].map((cert, i) => (
             <div key={i} className="group rounded-xl border border-white/10 p-6 bg-white/5 hover:bg-white/10 transition-all duration-300 cursor-pointer" onClick={() => {
               const certificateUrl = `./certificates/${cert.file}`;
