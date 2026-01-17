@@ -601,7 +601,7 @@ export default function Home() {
       { name: "Python", category: "programming", icon: "/images/logo/python_logo.png" },
       { name: "Java", category: "programming", icon: "/images/logo/java_logo.png" },
       { name: "C++", category: "programming", icon: "/images/logo/cplus_logo.png" },
-      { name: "Kotlin", category: ["programming", "mobile"], icon: "/images/logo/kotlin.png" },
+      { name: "Kotlin", category: ["programming", "mobile"], icon: "/images/logo/Kotlin.png" },
       { name: "SQL", category: ["programming", "data_ml"], icon: "/images/logo/MySql_logo.png" },
       { name: "DSA", category: "programming", icon: "/images/logo/C_logo.png" },
       { name: "Android Studio", category: "mobile", icon: "/images/logo/Android_Studio_logo.png" },
