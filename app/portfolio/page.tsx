@@ -2339,12 +2339,32 @@ export default function Home() {
           <p className="text-gray-400 text-lg">My professional journey and internships</p>
         </div>
         <div className="grid md:grid-cols-2 gap-8">
-          <div className="rounded-xl border border-white/10 p-8 bg-white/5 hover:bg-white/10 transition-all duration-300">
+          <div
+            className="rounded-xl border border-white/10 p-8 bg-white/5 hover:bg-white/10 transition-all duration-300 cursor-pointer"
+            onClick={() => {
+              const certificateUrl = './SpaceECE_Internship.pdf';
+              console.log('Opening certificate:', certificateUrl);
+              const newWindow = window.open(certificateUrl, '_blank');
+              if (!newWindow) {
+                alert('Please allow pop-ups for this site to view certificates');
+              }
+            }}
+          >
             <div className="text-xl font-semibold text-white mb-3">💻 Android App Development Intern</div>
             <div className="text-cyan-400 font-medium mb-2">SPACE For Early Childhood Education</div>
             <p className="text-gray-400">Built & enhanced Android apps with modern UI/UX design principles</p>
           </div>
-          <div className="rounded-xl border border-white/10 p-8 bg-white/5 hover:bg-white/10 transition-all duration-300">
+          <div
+            className="rounded-xl border border-white/10 p-8 bg-white/5 hover:bg-white/10 transition-all duration-300 cursor-pointer"
+            onClick={() => {
+              const certificateUrl = './Infosys_internship_cerificate.pdf';
+              console.log('Opening certificate:', certificateUrl);
+              const newWindow = window.open(certificateUrl, '_blank');
+              if (!newWindow) {
+                alert('Please allow pop-ups for this site to view certificates');
+              }
+            }}
+          >
             <div className="text-xl font-semibold text-white mb-3">🎓 Infosys Springboard Internship 6.0</div>
             <div className="text-cyan-400 font-medium mb-2">AI/ML Specialization</div>
             <p className="text-gray-400">Learned AI/software practices and machine learning fundamentals</p>
