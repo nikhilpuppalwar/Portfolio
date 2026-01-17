@@ -601,7 +601,7 @@ export default function Home() {
       { name: "Python", category: "programming", icon: "/images/logo/python_logo.png" },
       { name: "Java", category: "programming", icon: "/images/logo/java_logo.png" },
       { name: "C++", category: "programming", icon: "/images/logo/cplus_logo.png" },
-      { name: "Kotlin", category: ["programming", "mobile"], icon: "/images/logo/kotlin_logo.svg" },
+      { name: "Kotlin", category: ["programming", "mobile"], icon: "/images/logo/kotlin.png" },
       { name: "SQL", category: ["programming", "data_ml"], icon: "/images/logo/MySql_logo.png" },
       { name: "DSA", category: "programming", icon: "/images/logo/C_logo.png" },
       { name: "Android Studio", category: "mobile", icon: "/images/logo/Android_Studio_logo.png" },
@@ -615,7 +615,7 @@ export default function Home() {
       { name: "Seaborn", category: "data_ml", icon: "/images/logo/seaborn_logo.png" },
       { name: "HTML", category: "programming", icon: "/images/logo/HTML5_logo.png" },
       { name: "CSS", category: "programming", icon: "/images/logo/CSS3_logo.png" },
-      { name: "JavaScript", category: "programming", icon: "/images/logo/javascript_logo.png" },
+      { name: "JavaScript", category: "programming", icon: "/images/logo/JavaScript.png" },
       { name: "MongoDB", category: "data_ml", icon: "/images/logo/Mongodb_logo.png" },
       { name: "Jetpack Compose", category: "mobile", icon: "/images/logo/jetpackcompose_logo.png" },
       { name: "XML", category: "mobile", icon: "/images/logo/xml_android_logo.png" },
@@ -2470,7 +2470,7 @@ export default function Home() {
               <p className="text-gray-400 mb-6">View my complete resume and professional documents</p>
               <div className="space-y-4">
                 <button
-                  onClick={() => window.open('./Nikhil_Puppalwar4.3.pdf', '_blank')}
+                  onClick={() => window.open('./Nikhil_resume_5.1.pdf', '_blank')}
                   className="w-full px-6 py-3 bg-red-600 hover:bg-red-700 text-white font-semibold rounded-lg transition-colors flex items-center justify-center"
                   suppressHydrationWarning
                 >
@@ -2480,7 +2480,7 @@ export default function Home() {
                   View Resume (PDF)
                 </button>
                 <button
-                  onClick={() => window.open('/Nikhil_Puppalwar_internship_Completion.pdf', '_blank')}
+                  onClick={() => window.open('/Nikhil_Puppalwar_Intership.pdf', '_blank')}
                   className="w-full px-6 py-3 bg-blue-600 hover:bg-blue-700 text-white font-semibold rounded-lg transition-colors flex items-center justify-center"
                   suppressHydrationWarning
                 >
