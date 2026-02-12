@@ -603,7 +603,7 @@ export default function Home() {
       { name: "C++", category: "programming", icon: "/images/logo/cplus_logo.png" },
       { name: "Kotlin", category: ["programming", "mobile"], icon: "/images/logo/Kotlin.png" },
       { name: "SQL", category: ["programming", "data_ml"], icon: "/images/logo/MySql_logo.png" },
-      { name: "DSA", category: "programming", icon: "/images/logo/C_logo.png" },
+      { name: "DSA", category: "programming", icon: "/images/logo/DSA_logo.png" },
       { name: "Android Studio", category: "mobile", icon: "/images/logo/Android_Studio_logo.png" },
       { name: "Firebase", category: "mobile", icon: "/images/logo/Firebase_logo.png" },
       { name: "RESTful APIs", category: "programming", icon: "/images/logo/restfulApi_logo.png" },
